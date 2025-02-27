@@ -11,7 +11,7 @@ import java.util.UUID;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-class Todo {
+public class Todo {
     @Id()
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
